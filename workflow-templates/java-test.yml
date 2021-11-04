@@ -1,5 +1,25 @@
 name: Java Deploy CI/CD with Maven
 
+# on:
+#   workflow_run:
+#     workflows: ["Build"]
+#     types: [completed]
+
+# jobs:
+#   on-success:
+#     runs-on: ubuntu-latest
+#     if: ${{ github.event.workflow_run.conclusion == 'success' }}
+#     steps:
+#       ...
+#   on-failure:
+#     runs-on: ubuntu-latest
+#     if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+#     steps:
+#       ...
+
+# branches-ignore:[main]
+
+
 on: 
   workflow_dispatch:
   
