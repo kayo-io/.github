@@ -4,6 +4,8 @@ name: Java Deploy CI/CD with Maven
 #   workflow_run:
 #     workflows: ["Build"]
 #     types: [completed]
+#  schedule:
+#   - cron: 0 2 * * 1-5
 
 # jobs:
 #   on-success:
